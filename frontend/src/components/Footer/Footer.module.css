@@ -1,0 +1,25 @@
+.footerContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: calc(var(--max-width) + 300px);
+  font-size: var(--base-font-size);
+}
+
+@media screen and (max-width: 768px) {
+  .creators {
+    display: none;
+  }
+  .footer {
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-height);
+}
+
+.social {
+  margin-top: 7px;
+}
+
+.social img {
+  width: var(--navicon-font-size);
+}
+
+.additionalContent {
+  background-color: #57565677;
+  border: 1px solid #5756568f;
+  border-radius: 50px;
+  padding: 0.4rem 1rem;
+}
+
+.navbarContainer {
+  padding: 0 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbarContainer {
+    padding: 0 0.5rem;
+  }
+  .social {
+    display: none;
+  }
+}

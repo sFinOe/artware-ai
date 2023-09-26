@@ -1,0 +1,151 @@
+.col2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.shape {
+  z-index: 111;
+}
+
+.image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #0c061a;
+  align-items: center;
+  width: 100%;
+  height: 55vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: -23px;
+  left: -23px;
+  right: -23px;
+  bottom: -23px;
+  filter: blur(13px);
+  backdrop-filter: blur(13px);
+  z-index: 1;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.form {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input {
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  width: 80%;
+  color: #4317a1;
+}
+
+.selected {
+  background-color: #646cff;
+  color: white;
+}
+
+.selected,
+.selected:hover {
+  background-color: #646cff;
+  color: white;
+}
+
+.button {
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #5f3bf3;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #7454f3;
+}
+
+.dropdownItem {
+  color: #211835;
+}
+
+.dropdownItem.selected {
+  background-color: #646cff;
+  color: white;
+}
+
+.addOn {
+  background-color: rgba(255, 255, 255, 0.87);
+  color: #4317a1;
+  width: 10%;
+  border-radius: 6px;
+  padding: 1.35rem 0;
+  margin: 0;
+}
+
+.modal {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bigContainer {
+  min-height: calc(100vh - calc(var(--nav-height) + 8rem));
+}
+
+.modelItem {
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: #222222;
+  justify-content: space-between;
+}
+
+.modelItem:hover {
+  background-color: #ececec;
+  color: #222222;
+}
+
+.modelSelectedItem {
+  background-color: #ececec;
+  color: #222222;
+}
+
+.menu {
+  font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.menuItem {
+  background-color: transparent !important;
+  cursor: default;
+}
+
+.menuItem:hover,
+.menuItem:focus {
+  background-color: transparent !important;
+  cursor: default;
+  outline: none !important;
+  border: none !important;
+}

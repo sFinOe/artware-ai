@@ -1,0 +1,27 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Transaction {
+  id                   Int      @id @default(autoincrement())
+  payment_intent       String   @unique
+  client_secret        String
+  status               String
+}
+
+model ip {
+  id                   Int      @id @default(autoincrement())
+  ip                   String   @unique
+  payed               Boolean  @default(false)
+
+  totalgenerations      Int      @default(0)
+  hitlimit              Boolean  @default(false)
+}

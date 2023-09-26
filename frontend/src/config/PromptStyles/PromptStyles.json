@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Cat",
+    "positivePrompt": "Cat with a hat",
+    "negativePrompt": "bad cat"
+  },
+  {
+    "id": "2",
+    "name": "Dog",
+    "positivePrompt": "Dog",
+    "negativePrompt": "Dog"
+  },
+  {
+    "id": "3",
+    "name": "Spiderman",
+    "positivePrompt": "a man with a cool spiderman costume powerfully poses for the camera",
+    "negativePrompt": "a kid in a spiderman costume is crying"
+  },
+  {
+    "id": "4",
+    "name": "Camera wowo",
+    "positivePrompt": "Camera wowo",
+    "negativePrompt": "Camera wowo"
+  }
+]

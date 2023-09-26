@@ -1,0 +1,12 @@
+{
+  "firstTime": {
+    "Price": "0.99",
+    "Currency": "usd",
+    "timeInterval": "30m"
+  },
+  "subsequentTimes": {
+    "Price": "2",
+    "Currency": "usd",
+    "timeInterval": "2h"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "positive_blacklistedWords": ["18+", "explicit", "adult", "mature", "nsfw", "porn", "sex", "nudity", "obscene"],
+  "negative_blacklistedWords": ["18+", "explicit", "adult", "mature", "nsfw", "porn", "sex", "nudity", "obscene"],
+  "error_title": "Blacklisted words detected",
+  "error_msg": "Prompt contains blacklisted words (NSFW)"
+}

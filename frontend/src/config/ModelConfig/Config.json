@@ -1,0 +1,10 @@
+{
+  "endpointId": "9g0i44ug18qsqp",
+  "height": "512",
+  "width": "512",
+  "guidance_scale": "7",
+  "bucket_name": "images",
+  "num_images_per_prompt": "1",
+  "scheduler": "DPM",
+  "seed": ""
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "DreamShaper",
+    "image": "/images/model1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cetus-Mix",
+    "image": "/images/dog.png"
+  },
+  {
+    "id": 3,
+    "name": "epiCRealism",
+    "image": "/images/dog.png"
+  },
+  {
+    "id": 4,
+    "name": "majicMIX-realistic",
+    "image": "/images/dog.png"
+  }
+]
