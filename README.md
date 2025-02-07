@@ -5,7 +5,7 @@
 ```
 cd backend
 
-npm i
+npm install
 
 npm run start:dev
 
@@ -13,7 +13,7 @@ npm run start:dev
 
 cd frontend
 
-npm i
+npm install
 
 npm run dev
 
