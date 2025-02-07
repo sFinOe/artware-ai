@@ -1,4 +1,4 @@
-# wetware-ai
+# Artware-ai
 
 ## Installation
 

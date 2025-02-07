@@ -135,7 +135,7 @@ export default function App() {
   return (
     <PayPalScriptProvider
       options={{
-        "client-id": "AcN5X7GEIbZGePJ0u-8vTHvVMGUI_UAMmOLSKMDsP5KnAu8e80C4K4EGWzAKeoaoU8xncLsVsd3Qtn7X",
+        "client-id": "",
       }}
     >
       <Router>
