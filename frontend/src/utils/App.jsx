@@ -145,8 +145,8 @@ export default function App() {
         <Notifications style={{ fontFamily: "Poppins" }} />
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Navigate to="/{model}" />} />
-          <Route exact path="/:model" element={<Landing />} />
+          <Route exact path="/" element={<Landing />} />
+          <Route exact path="/models/:model" element={<Landing />} />
           <Route exact path="/payment" element={<Payment />} />
           <Route exact path="/verify-payment" element={<Verify_payment />} />
           <Route exact element={<PrivateRoute />}>
