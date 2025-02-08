@@ -34,7 +34,8 @@ export class InferenceController {
 
   @Post('free-generate')
   @HttpCode(HttpStatus.OK)
-  async freeGenerate(@Req() req: Request, @Body() body: any) {
+  async freeGenerate(@Req() req: any, @Body() body: any) {
+    console.log('xxxxxxxxxxxxxxxxxx');
     const ipv4: string = Array.isArray(req.headers['x-forwarded-for'])
       ? req.headers['x-forwarded-for'][0]
       : req.headers['x-forwarded-for'] || req.connection.remoteAddress;

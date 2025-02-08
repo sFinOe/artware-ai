@@ -13,20 +13,8 @@ function Footer() {
         <Group className={styles.footer}>
           <h2>{Config.Appname}</h2>
           <p className={styles.creators}>
-            Created by&nbsp;
-            <a
-              href="https://www.linkedin.com/in/adnane-ait-malek-733a35272/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Adnane Ait Malek &nbsp;
-            </a>
-            & &nbsp;
-            <a
-              href="https://www.linkedin.com/in/sfinoe/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            Created by&nbsp; &nbsp;
+            <a href="https://www.linkedin.com/in/sfinoe/" target="_blank" rel="noreferrer">
               Zakaria Kasmi
             </a>
           </p>

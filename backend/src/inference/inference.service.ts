@@ -135,7 +135,6 @@ export class InferenceService {
         this.scheduleService.getTotalGenerationPerDay() >=
         parseInt(process.env.TOTAL_FREE_GENERATIONS_PER_DAY)
       ) {
-
         throw new HttpException(
           {
             status: HttpStatus.FORBIDDEN,
@@ -178,6 +177,7 @@ export class InferenceService {
 
       return { Image: Base64Img };
     } catch (error) {
+      console.log(error);
       if (!error.response) {
         throw new HttpException(
           {
